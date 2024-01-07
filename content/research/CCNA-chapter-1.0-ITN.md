@@ -2,7 +2,7 @@
 title: "CCNA v7.02: Chapter 1 - Networking Today [ITN]"
 layout: single_research
 date: 2023-12-23 07:00:00 +0700
-draft: false
+draft: true
 tags: 
 - "CCNA"
 - "Networking"
