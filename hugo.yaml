@@ -39,7 +39,7 @@ params:
       Anthony Febrian Aria Sena,
     ]
   author: Nyferin
-  images: ["cover.png"]
+  images: ["obviate.png"]
   DateFormat: "January 2, 2006"
   defaultTheme: dark # dark, light
   disableThemeToggle: true
