@@ -26,7 +26,7 @@ Imagine the internet like a bustling city, teeming with information and communic
 
 > Get that little grasp of it? Great, now let's continue.
 
-CCNA is an abbreviation for Cisco Certified Network Associate. It's an industry-recognized certification that validates your understanding of essential networking concepts and skills.
+CCNA is an abbreviation for **Cisco Certified Network Associate**. It's an industry-recognized certification that validates your understanding of essential networking concepts and skills.
 
 ## Chapters
 
