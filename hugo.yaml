@@ -1,4 +1,4 @@
-baseURL: "https://blog.obviate.my.id"
+baseURL: "https://obviate.my.id"
 title: Obviate
 paginate: 5
 theme: PaperMod
@@ -89,7 +89,7 @@ params:
       url: "https://twitter.com/nyferin"
     - name: instagram
       title: "Instagram"
-      url: "https://instagram.com/anthonyfebrian.as"
+      url: "https://instagram.com/nyferin"
     - name: rss
       title: "RSS"
       url: "index.xml"
@@ -102,7 +102,7 @@ params:
     hiddenInSingle: false # hide on single page
 
   editPost:
-    URL: "mailto:nyferin@obviate.my.id?subject=Suggest%20Change%20on%20"
+    URL: "mailto:nyferin@proton.me?subject=Suggest%20Change%20on%20"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 
