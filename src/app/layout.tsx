@@ -1,6 +1,8 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Inconsolata } from "next/font/google";
 import "./globals.css";
+
+import { Navbar } from "@/components/navbar";
 
 const inconsolata = Inconsolata({
   variable: "--font-inconsolata",
@@ -13,7 +15,7 @@ export const metadata: Metadata = {
     default: "obviate",
     template: "obviate | %s",
   },
-  description: "My works",
+  description: "My works.",
   metadataBase: new URL(
     process.env.NODE_ENV === "production"
       ? "https://obviate.my.id"
@@ -40,6 +42,12 @@ export const metadata: Metadata = {
   manifest: "/site.webmanifest",
 };
 
+export const viewport: Viewport = {
+  themeColor: "#000000",
+  initialScale: 1,
+  width: "device-width",
+};
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -47,7 +55,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inconsolata.variable} antialiased`}>{children}</body>
+      <body className={`${inconsolata.variable} antialiased`}>
+        <Navbar />
+        {children}
+      </body>
     </html>
   );
 }
