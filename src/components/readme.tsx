@@ -1,10 +1,12 @@
 export function ReadMe() {
   return (
-    <>
-      <h2 className="text-current/75">
+    <div className="rounded-sm border text-justify">
+      <h2 className="text-current/75 border-b px-5 py-3">
         <span className="font-semibold">Read Me</span>
       </h2>
-      <p>Hold up!</p>
-    </>
+      <div className="px-7 py-5">
+        <p>Hold up!</p>
+      </div>
+    </div>
   );
 }
