@@ -1,5 +1,8 @@
-import Container from "@/components/container";
 import { Metadata } from "next";
+
+import Container from "@/components/container";
+import { ReadMe } from "@/components/readme";
+import { Interests } from "@/components/interests";
 
 export const metadata: Metadata = {
   title: "obviate | index",
@@ -14,9 +17,8 @@ export default function Home() {
   return (
     <>
       <Container>
-        <div>
-          <p>Hi</p>
-        </div>
+        <ReadMe />
+        <Interests />
       </Container>
     </>
   );
