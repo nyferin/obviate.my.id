@@ -29,7 +29,7 @@ export function Navbar() {
   ];
 
   return (
-    <header className="sticky top-0 z-50 bg-background/50 backdrop-blur-lg w-full">
+    <header className="sticky top-0 z-50 bg-background/25 backdrop-blur w-full">
       <nav className="w-full max-w-3xl mx-auto px-5 py-3 flex justify-between items-center">
         <Link
           href="/"
