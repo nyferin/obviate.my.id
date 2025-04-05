@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 
 import Container from "@/components/container";
+import { Hero } from "@/components/hero";
 import { ReadMe } from "@/components/readme";
 import { Interests } from "@/components/interests";
 
@@ -17,6 +18,7 @@ export default function Home() {
   return (
     <>
       <Container>
+        <Hero />
         <ReadMe />
         <Interests />
       </Container>
