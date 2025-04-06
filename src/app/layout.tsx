@@ -1,13 +1,19 @@
 import type { Metadata, Viewport } from "next";
-import { Inconsolata } from "next/font/google";
+import { Inconsolata, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
 import { Navbar } from "@/components/navbar";
+import { ThemeProvider } from "@/components/ui/theme-provider";
 
 const inconsolata = Inconsolata({
   variable: "--font-inconsolata",
   subsets: ["latin"],
   weight: ["200", "300", "400", "500", "600", "700", "800", "900"],
+});
+
+const geistMono = Geist_Mono({
+  variable: "--font-geist-mono",
+  subsets: ["latin"],
 });
 
 export const metadata: Metadata = {
@@ -54,10 +60,18 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={`${inconsolata.variable} antialiased`}>
-        <Navbar />
-        {children}
+    <html lang="en" suppressHydrationWarning>
+      <body
+        className={`${inconsolata.variable}  ${geistMono.variable} antialiased`}
+      >
+        <ThemeProvider
+          attribute="data-theme"
+          defaultTheme="system"
+          enableSystem
+        >
+          <Navbar />
+          {children}
+        </ThemeProvider>
       </body>
     </html>
   );
