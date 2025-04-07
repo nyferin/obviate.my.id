@@ -4,7 +4,7 @@ import React, { useState, useEffect } from "react";
 import { useTheme } from "next-themes";
 
 function ThemeToggle() {
-  const { theme, setTheme } = useTheme();
+  const { theme, setTheme, resolvedTheme } = useTheme();
   const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
@@ -23,9 +23,9 @@ function ThemeToggle() {
     <button
       className="theme-toggle-button text-xs border border-current/50 rounded-sm"
       onClick={toggleTheme}
-      aria-label={`Switch to ${theme === "dark" ? "light" : "dark"} theme`}
+      aria-label={`Switch to ${resolvedTheme === "dark" ? "light" : "dark"} theme`}
     >
-      <span>{theme === "dark" ? "☼" : "☾"}</span>
+      <span>{resolvedTheme === "dark" ? "☼" : "☾"}</span>
     </button>
   );
 }
