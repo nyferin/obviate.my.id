@@ -20,7 +20,6 @@ export default function Home() {
       <Container>
         <Hero />
         <ReadMe />
-        <Interests />
       </Container>
     </>
   );
