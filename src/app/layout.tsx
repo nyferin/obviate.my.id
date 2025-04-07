@@ -62,7 +62,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body
-        className={`${inconsolata.variable}  ${geistMono.variable} antialiased`}
+        className={`${inconsolata.variable} ${geistMono.variable} antialiased`}
       >
         <ThemeProvider
           attribute="data-theme"
