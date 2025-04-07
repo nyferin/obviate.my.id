@@ -3,7 +3,7 @@ export function Interests() {
     "Cybersecurity",
     "Programming",
     "Computer Network",
-    "Web Development",
+    "DevOps",
     "Cloud Computing",
   ];
 
