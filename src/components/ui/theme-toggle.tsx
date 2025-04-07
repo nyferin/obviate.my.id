@@ -25,7 +25,7 @@ function ThemeToggle() {
       onClick={toggleTheme}
       aria-label={`Switch to ${resolvedTheme === "dark" ? "light" : "dark"} theme`}
     >
-      <span>{resolvedTheme === "dark" ? "☼" : "☾"}</span>
+      <span>{resolvedTheme === "dark" ? "Light" : "Dark"}</span>
     </button>
   );
 }
