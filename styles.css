@@ -684,7 +684,7 @@ html.about-dialog-open {
 .about-wordmark {
   color: #fdf0ea;
   font-family: "Pliant", sans-serif;
-  font-size: 1rem;
+  font-size: 1.5rem;
   letter-spacing: 0.2em;
   text-decoration: none;
 }
@@ -692,8 +692,7 @@ html.about-dialog-open {
 .about-nav {
   display: flex;
   gap: 1.5rem;
-  font-size: 0.9rem;
-  letter-spacing: 0.08em;
+  font-size: 1.3rem;
   text-transform: uppercase;
 }
 
