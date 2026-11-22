@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en" class="about-document">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>About — OBVIATE</title>
+    <meta name="description" content="Learn about OBVIATE, a space for new creations and honest reflection.">
+    <link rel="canonical" href="https://obviate.my.id/about/">
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="icon" type="image/png" href="/Obviate.png">
+  </head>
+  <body class="about">
+    <header class="about-header">
+      <a class="about-wordmark" href="/" aria-label="OBVIATE home">OBVIATE</a>
+      <nav class="about-nav" aria-label="Page navigation">
+        <a class="about-nav-link about-nav-link--current" href="/about/" aria-current="page">About</a>
+      </nav>
+    </header>
+
+    <main class="about-main">
+
+      <section class="about-sections" aria-label="About sections">
+        <div class="about-card-grid">
+          <button class="about-card" type="button" data-dialog="self" data-dialog-title="My Self">
+            <span class="about-card-title">My Self</span>
+            <span class="about-card-summary">The person behind the work.</span>
+            <span class="about-card-action">Open <span aria-hidden="true">↗</span></span>
+          </button>
+          <button class="about-card" type="button" data-dialog="work" data-dialog-title="My Work">
+            <span class="about-card-title">My Work</span>
+            <span class="about-card-summary">Projects, ideas, and things I make.</span>
+            <span class="about-card-action">Open <span aria-hidden="true">↗</span></span>
+          </button>
+          <button class="about-card" type="button" data-dialog="resume" data-dialog-title="My Resume">
+            <span class="about-card-title">My Resume</span>
+            <span class="about-card-summary">A record of experience and practice.</span>
+            <span class="about-card-action">Open <span aria-hidden="true">↗</span></span>
+          </button>
+          <button class="about-card" type="button" data-dialog="contact" data-dialog-title="My Contact">
+            <span class="about-card-title">My Contact</span>
+            <span class="about-card-summary">A way to start a conversation.</span>
+            <span class="about-card-action">Open <span aria-hidden="true">↗</span></span>
+          </button>
+          <button class="about-card" type="button" data-dialog="connections" data-dialog-title="My Connections">
+            <span class="about-card-title">My Connections</span>
+            <span class="about-card-summary">People and places that shape the work.</span>
+            <span class="about-card-action">Open <span aria-hidden="true">↗</span></span>
+          </button>
+        </div>
+      </section>
+    </main>
+
+    <dialog class="about-dialog" id="about-dialog" aria-labelledby="about-dialog-label">
+      <div class="about-dialog-shell">
+        <header class="about-dialog-header">
+          <p class="about-kicker about-dialog-header-kicker" id="about-dialog-label">My Self</p>
+          <button class="about-dialog-close" type="button" aria-label="Close section">×</button>
+        </header>
+        <div class="about-dialog-content">
+          <div class="about-dialog-pages">
+            <article class="about-dialog-page" data-section="self">
+              <p>I’m <strong>Anthony Febrian Aria Sena</strong>, self-proclaimed engineer and your friendly neighborhood IT guy based in Jakarta.</p>
+              <p>This all started when my parents bought me a computer. I’ve been poking at machines to see what happens ever since. I firmly believe the fastest way to master anything is to get your hands dirty: touch it until it breaks, figure out how to fix it, and repeat.</p>
+              <p>I’m mostly powered by overly complicated side quests, obscure rabbit holes, and late-night meme scrolling.</p>
+            </article>
+            <article class="about-dialog-page" data-section="work">
+              <p>By day, I get paid to stare at network traffic and hunt down cyber threats—because breaking and fixing things legally is far more sustainable than doing it for free.</p>
+              <p>Outside the 9-to-5, I build and maintain niche tools to help with my work, write Capture the Flag (CTF) challenges (mostly to watch people suffer), and contribute to the cybersecurity community as a developer, editor, and occasional speaker. Previously, I spent a few years teaching computer science until they handed me a degree and politely asked me to leave.</p>
+            </article>
+            <article class="about-dialog-page" data-section="resume">
+              <p class="about-dialog-heading">Experience</p>
+              <ul>
+                <li><strong>Security Analyst</strong> @ PT Nusantara Compnet Integrator <em>(Jul 2025 – Present)</em> — Keeping enterprise infrastructure safe and sound.</li>
+                <li><strong>Security Analyst</strong> @ Defenxor <em>(Apr 2024 – Mar 2025)</em> — Monitored alerts, correlated logs across too many security tools, and wrote monthly CVE survival guides.</li>
+                <li><strong>Assistant Lecturer &amp; IT Support</strong> @ Universitas Kristen Satya Wacana <em>(2022 – 2025)</em> — Maintained 14 computer labs, taught networking, OS, and algorithms to hundreds of students, and somehow got voted Favorite Assistant Lecturer.</li>
+              </ul>
+              <p class="about-dialog-heading">Organization</p>
+              <ul>
+                <li><strong>Servant (Developer, Editor, Speaker)</strong> @ Arisan SECurity <em>(Mar 2024 – Present)</em> — Maintaining the web, organizing A-TALK sharing sessions, and generally helping out.</li>
+              </ul>
+              <p class="about-dialog-heading">Education</p>
+              <ul>
+                <li><strong>B.Cs. in Computer Science</strong> @ Universitas Kristen Satya Wacana <em>(2021 – 2025)</em> — Accidentally graduated <em>cum laude</em> with the highest GPA in my cohort (3.97/4.00).</li>
+              </ul>
+              <p class="about-dialog-heading">Certification</p>
+              <ul>
+                <li>Paperwork I’m allowed to brag about: <strong>EC-Council Certified SOC Analyst (CSA)</strong>, <strong>Cisco CCNA</strong>, and <strong>AttackIQ Breach &amp; Attack Simulation</strong>.</li>
+              </ul>
+            </article>
+            <article class="about-dialog-page" data-section="contact">
+              <p>Want to talk about cybersecurity, collaborate on a CTF, or send me a really good meme? Feel free to reach out—unless you’re trying to sell me enterprise SaaS.</p>
+              <ul>
+                <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/nyferin/" target="_blank" rel="noopener noreferrer">linkedin.com/in/nyferin</a></li>
+                <li><strong>GitHub / X / Discord:</strong> <code>@nyferin</code></li>
+                <li><strong>Mastodon:</strong> <a href="https://social.gnuweeb.org/@nyferin" target="_blank" rel="noopener noreferrer">@nyferin@social.gnuweeb.org</a></li>
+                <li><strong>Email:</strong> <a href="mailto:nyferin@proton.me" target="_blank" rel="noopener noreferrer">nyferin@proton.me</a></li>
+              </ul>
+            </article>
+            <article class="about-dialog-page" data-section="connections">
+              <p>People, communities, and corners of the internet I vouch for (or at least hang out in)</p>
+              <p class="about-dialog-heading">Communities:</p>
+              <ul>
+                <li><strong>Arisan SECurity</strong> (<a href="https://s.id/arisansecurity" target="_blank" rel="noopener noreferrer">s.id/arisansecurity</a>) — The local infosec community I serve and build with.</li>
+                <li><strong>IMPHNEN</strong> — Where I do my professional meme scrolling and mental health maintenance.</li>
+                <li><strong>Limitless Learning Center</strong> — Where I spent over five years doing R&amp;D, IT dev, and mentoring.</li>
+              </ul>
+              <p class="about-dialog-heading">Friends &amp; Cool People:</p>
+              <ul>
+                <li><strong>minzelo</strong> (<a href="https://raihanrahman.minzelo14.workers.dev/" target="_blank" rel="noopener noreferrer">raihanrahman.minzelo14.workers.dev</a>) — Professional larper and GRC to go wannabe.</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+        <footer class="about-dialog-footer" hidden>
+          <div class="about-dialog-controls" hidden>
+            <button class="about-dialog-button about-dialog-button--previous" type="button">Previous</button>
+            <p class="about-dialog-status" aria-live="polite"><span data-dialog-current>1</span> / <span data-dialog-total>1</span></p>
+            <button class="about-dialog-button about-dialog-button--next" type="button">Next</button>
+          </div>
+        </footer>
+      </div>
+    </dialog>
+
+    <script src="/script.js" defer></script>
+  </body>
+</html>
